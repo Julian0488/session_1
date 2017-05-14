@@ -9,7 +9,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 Download sleep study data
-Are you sure?
 ```{r}
 library(readr)
 sleep <- read_csv("https://vincentarelbundock.github.io/Rdatasets/csv/lme4/sleepstudy.csv") # no spaces
